@@ -1,3 +1,4 @@
 # sinatra-dice-form
+#Target: https://dice-form.matchthetarget.com/
 
-Target: https://dice-form.matchthetarget.com/
+get("/)
