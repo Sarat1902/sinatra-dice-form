@@ -12,5 +12,7 @@ get("/process_roll") do
 
  @dice = params.fetch("dice")
  @sides = params.fetch("sides")
+
+ erb(:results)
  
 end
