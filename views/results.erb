@@ -3,8 +3,15 @@
 </h1>
 
 
+<a href ="/process_roll?dice=<%=@dice%>&sides=<%=@sides%>%"> Roll again </a>
+
+|
+
+<a href ="/"> Go back home </a>
+
+
 <ol>
 <% @rolls.each do |q| %>
-  <li>Results: <%= q %></li>
+  <li><em>Results:</em><strong> <%= q %></strong></li>
 <% end %>
 <ol>
