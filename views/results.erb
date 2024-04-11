@@ -1,5 +1,10 @@
-<%= @params %>
-
 <h1>
 <%= @dice%>d<%= @sides%>
 </h1>
+
+
+<ol>
+<% @rolls.each do |q| %>
+  <li>Results: <%= q %></li>
+<% end %>
+<ol>
